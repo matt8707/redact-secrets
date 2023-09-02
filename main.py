@@ -66,8 +66,8 @@ def write(output_file, content):
     with open(output_file, "w", encoding="utf-8") as outfile:
         yaml.dump(content, outfile)
 
-TEMPLATE = "/Users/matte/mount/hass-config/secrets_template.yaml"
-write_redacted("/Users/matte/mount/hass-config/secrets_redacted.yaml")
-write_secrets("/Users/matte/mount/hass-config/secrets.yaml")
+TEMPLATE = "/Users/matte/Mount/hass-config/secrets_template.yaml"
+write_redacted("/Users/matte/Mount/hass-config/secrets_redacted.yaml")
+write_secrets("/Users/matte/Mount/hass-config/secrets.yaml")
 
 print("ok")
